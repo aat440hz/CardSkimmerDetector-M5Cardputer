@@ -44,7 +44,7 @@ class MyAdvertisedDeviceCallbacks : public BLEAdvertisedDeviceCallbacks {
         int year = year1 * 100 + year2;
 
         // Update to the current year as the upper limit for year check
-        int currentYear = 2024; // Replace 20XX with the current year or fetch dynamically
+        int currentYear = 2025; // Replace 20XX with the current year or fetch dynamically
 
         // Convert the device name to std::string for regex matching
         std::string devName = advertisedDevice.getName();
